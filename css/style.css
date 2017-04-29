@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+.title {
+	text-align: center;
+	margin: 20px;
+	
+}
+
+
+.background {
+	width: 90%;
+	height: 400px;
+	margin: 20px auto;
+	border: 1px solid #aaa;
+	position: relative;
+	font-size: 20px;
+	overflow: hidden;
+
+}
+
+.background div {
+	width: 50px;
+	height: 1em;
+	overflow: visible;
+	white-space: nowrap;
+	
+}
+
+
+.button-container {
+	width: 90%;
+	height: 50px;
+	margin: 10px auto;
+
+}
+
+
+.input-box {
+	
+	display: block;
+	font-size: 20px;
+	width: 500px;
+	height: 50px;
+	margin: 10px auto;
+	border: 1px solid #aaa;	
+	border-radius:5px ;
+}
+
+@media only screen and (max-width: 550px) {
+	.input-box {
+		width: 90%;
+	}
+}
+
+.button-box {
+	width: 425px;
+	margin: 0 auto;
+
+	
+}
+
+.button1 {
+	display: inline-block;
+	width:190px;
+	height: 45px;
+	background-color: white;
+	border: 1px solid red;
+	border-radius: 5px;
+	color: red;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+
+.button2 {
+	
+	display: inline-block;
+	width:190px;
+	height: 45px;
+	background-color: white;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	border-color: gray;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+	.button-box {
+		width: 90%;
+	}
+	.button1 {
+		width: 40%;
+		margin: 10px 4%;
+	}
+	.button2 {
+		width: 40%;
+		margin:10px 4%;
+	}
+}
